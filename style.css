@@ -27,7 +27,7 @@ Version      : 1.1.9
 body {
   font-family: "PT Sans", sans-serif;
   font-size: 15px;
-  color: #616161;
+  color: #b8b29f;
   line-height: 28px;
 }
 a {
@@ -135,7 +135,7 @@ p.lead {
   font-size: 16px;
   font-weight: 300;
   line-height: 1.6;
-  color: #9fa6b8;
+  color: #b8b29f;
   margin-bottom: 2.4rem;
   margin-top: 1.2rem;
 }
@@ -1915,6 +1915,7 @@ removing
 *===================================*/
 .about-section {
   padding: 90px 0;
+  background: #0f0f0f;
 }
 .about-section h5 {
   font-size: 18px;
@@ -2270,7 +2271,7 @@ h2.section-heading span {
 .our-mission-boxes .col {
   padding: 30px;
   background: #242424;
-  background: rgba(36, 36, 36, 0.25);
+  background: rgba(0, 0, 0, 0.75);
   border-right: 1px solid rgba(54, 54, 54, 0.8);
   color: #ffffff;
   cursor: pointer;
