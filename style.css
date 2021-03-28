@@ -2843,9 +2843,10 @@ h2.section-heading span {
   float: left;
   width: 100%;
   clear: both;
+  background: #171615;
 }
 .token-struc-bottom {
-  background: #030303;
+  background: #1a1a1a;
   color: #fff;
   line-height: 26px;
 }
