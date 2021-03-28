@@ -504,6 +504,7 @@ header.fixed {
 .hero-left .hero-btns a + a {
   margin-left: 12px;
 }
+/*
 .hero-left .hero-btns .btn2:before {
   background: url(images/arrow1.png);
   width: 16px;
@@ -513,6 +514,7 @@ header.fixed {
   vertical-align: middle;
   margin-right: 10px;
 }
+*/
 .pre-sale-timer {
   text-align: center;
   max-width: 420px;
@@ -2307,7 +2309,7 @@ h2.section-heading span {
   right: 30px;
 }
 .our-mission-boxes .col:hover {
-  background: rgba(0, 0, 0, 0.65);
+  background: rgba(0, 0, 0, 0.5);
 }
 .our-mission-boxes .col:hover span,
 .our-mission-boxes .col:hover h4 {
