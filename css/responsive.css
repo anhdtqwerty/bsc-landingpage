@@ -11,7 +11,7 @@
   .our-mission-boxes .col {
     padding: 15px;
     padding-top: 20px;
-    min-height: 450px;
+    min-height: 400px;
   }
   .layout-2 .row {
     padding: 80px 0px;
@@ -308,6 +308,7 @@
     width: 50%;
     flex-basis: inherit;
     border-bottom: 1px solid rgba(54, 54, 54, 0.8);
+    min-height: 280px;
   }
   .doughnut {
     display: block;

@@ -272,7 +272,7 @@ p.lead {
 }
 .sec-title {
   margin-bottom: 0;
-  color: #eae6d5;
+  color: #fff;
   display: table;
   width: 100%;
 }
@@ -2356,7 +2356,7 @@ h2.section-heading span {
 .our-mission-boxes .col {
   padding: 30px;
   background: #242424;
-  background: rgba(0, 0, 0, 0.75);
+  background: rgba(0, 0, 0, 0.55);
   border-right: 1px solid rgba(54, 54, 54, 0.8);
   color: #ffffff;
   cursor: pointer;
@@ -2373,12 +2373,12 @@ h2.section-heading span {
   color: #ffffff;
   font-size: 36px;
   font-weight: 400;
-  margin-bottom: 20px;
+  margin-bottom: 12px;
   display: block;
 }
 .our-mission-boxes p {
-  color: rgba(255, 255, 255, 0.65);
-  opacity: 0.5;
+  color: rgba(255, 255, 255, 0.9);
+  opacity: 0.6;
   /*visibility: hidden;*/
 }
 .our-mission-boxes h4 {
@@ -2392,13 +2392,14 @@ h2.section-heading span {
   right: 30px;
 }
 .our-mission-boxes .col:hover {
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.4);
 }
 .our-mission-boxes .col:hover span,
 .our-mission-boxes .col:hover h4 {
   color: #fbbd18;
 }
 .our-mission-boxes .col:hover p {
+  color: rgba(255, 255, 255, 1);
   opacity: 1;
   visibility: visible;
 }
