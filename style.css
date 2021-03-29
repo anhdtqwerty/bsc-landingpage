@@ -856,7 +856,7 @@ header.fixed {
   position: absolute;
   top: 50%;
   width: 75%;
-  max-width: 480px;
+  max-width: 600px;
   transform: translate(-50%, -50%);
   left: 50%;
   text-align: center;
