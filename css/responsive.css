@@ -50,7 +50,7 @@
 }
 @media only screen and (max-width: 1199px) {
   nav ul li {
-    margin-left: 20px;
+    margin-left: 30px;
   }
   header {
     padding-top: 15px;
@@ -253,7 +253,7 @@
     margin-top: 3px;
   }
   nav ul li {
-    margin-left: 5px;
+    margin-left: 20px;
   }
   nav ul li a {
     font-size: 14px;
@@ -508,6 +508,9 @@
   }
 }
 @media (min-width: 768px) and (max-width: 991px) {
+  .container {
+    max-width: calc(100% - 48px);
+  }
   .footer-box-2 li {
     width: 100%;
   }
@@ -559,6 +562,9 @@
   }
 }
 @media (min-width: 30px) and (max-width: 767px) {
+  .container {
+    max-width: calc(100% - 24px) !important;
+  }
   header,
   header.fixed {
     padding: 10px 0;

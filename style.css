@@ -860,10 +860,10 @@ header.fixed {
   transform: translate(-50%, -50%);
   left: 50%;
   text-align: center;
+  z-index: 1;
 }
 .c-logo img {
   max-width: 100%;
-  z-index: 1;
 }
 #circle5 {
   -webkit-transform: translate3d(0, 0, 0);
