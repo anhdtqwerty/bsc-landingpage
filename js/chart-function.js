@@ -5,9 +5,9 @@
 
     function chart(){
       /* Layout 1 Token Chat */
-      var colors = ['#7d7d7d', '#d47c0c', '#f0931e', '#f6aa35', '#fbbd18'];
-      var labels = ["«Bounty»  campaign", "Advisors", "Founders and Team", "Reserved Funding", "Distributed to Community"];
-      var data = [10, 10, 5, 5, 70];
+      var colors = ["#FFDF6B", "#FEC635", "#FFA425", "#FD8719", "#FF6C26", "#CBCBCB", "#EFEFEF", "#FFFFFF"];
+      var labels = ["Team", "Seed", "Private A", "Private B", "Public", "Advisor", "Burn", "Farming pool"];
+      var data = [15, 15, 20, 20, 1, 5, 10, 14];
       var bgColor = colors;
       var dataChart = {
         labels: labels,
