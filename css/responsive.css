@@ -277,9 +277,6 @@
   .sec-title.text-center:after {
     margin: 20px 0;
   }
-  .hero-btns a {
-    min-width: 210px;
-  }
   #clock li {
     padding: 0 8px;
   }
@@ -533,9 +530,6 @@
   .benefits-boxes .item .bf-image {
     margin-bottom: 30px;
   }
-  .hero-left .hero-btns a + a {
-    margin: 16px 0 0;
-  }
   .pre-sale-timer {
     margin-bottom: -60px;
   }
@@ -692,9 +686,6 @@
   }
   .btn {
     padding: 10px 20px;
-  }
-  .hero-left .hero-btns a + a {
-    margin: 16px 0px 0px;
   }
   .our-mission-boxes .col {
     width: 100%;
@@ -902,20 +893,11 @@
     max-width: 50%;
     margin-bottom: 30px;
   }
-  .carbon-layout .hero-btns a + a.btn {
-    margin-top: 0;
-  }
   .carbon-layout .hero-main .row > div {
     order: 2;
   }
   .carbon-layout .hero-main .row > div + div {
     order: 1;
-  }
-  .animation-circle-main {
-    top: 0;
-    transform: none;
-    margin: auto;
-    position: relative;
   }
   .current-prices .item {
     max-width: 420px;
@@ -1209,6 +1191,9 @@
       -webkit-transform: translateY(-180%) rotate(-720deg);
     }
   }
+  .animation-circle-main {
+    display: none;
+  }
 }
 @media only screen and (max-width: 479px) {
   .blog-list-img {
@@ -1222,9 +1207,6 @@
   }
   .team-member .team {
     width: 100%;
-  }
-  .hero-left .hero-btns a + a {
-    margin: 16px 0px 0px;
   }
   img.play-btn-img {
     margin: 0 0 15px;
@@ -1271,10 +1253,6 @@
     margin: 15px auto;
     display: table;
   }
-  .carbon-layout .hero-btns a,
-  .carbon-layout .hero-btns a + a.btn {
-    margin-top: 10px;
-  }
   .tab-section .nav-tabs {
     border-bottom: 0px;
   }
@@ -1293,14 +1271,6 @@
   .token-sale .button-wrapper {
     display: table;
     margin: 0px auto 30px;
-  }
-  .button-wrapper a + a {
-    display: table;
-    margin-left: 0;
-    margin-top: 10px;
-  }
-  .hero-btns a + a {
-    margin-top: 10px;
   }
   .form-block.style-2 {
     padding: 30px 15px;
