@@ -842,7 +842,7 @@ header.fixed {
   transform: translateY(-50%);
 }
 .animation-circle-main svg {
-  opacity: 0.1;
+  opacity: 0.2;
 }
 .stipe-value-slider {
   position: absolute;
@@ -863,6 +863,7 @@ header.fixed {
 }
 .c-logo img {
   max-width: 100%;
+  z-index: 1;
 }
 #circle5 {
   -webkit-transform: translate3d(0, 0, 0);
