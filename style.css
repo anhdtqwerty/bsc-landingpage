@@ -28,7 +28,6 @@ body {
   font-family: "PT Sans", sans-serif;
   font-size: 15px;
   color: #b8b29f;
-  line-height: 28px;
 }
 a {
   color: #fbbd18;
@@ -440,7 +439,7 @@ nav ul li:first-child {
 }
 nav ul li a {
   color: #fff;
-  font-weight: 700;
+  font-weight: 600;
   font-size: 16px;
   padding: 10px 0;
   display: block;
