@@ -1201,6 +1201,12 @@
   .animation-circle-main {
     display: none;
   }
+  .benefits-boxes .item .bf-image {
+    width: 120px;
+  }
+  .benefits-boxes .item .bf-details {
+    width: calc(100% - 120px);
+  }
 }
 @media only screen and (max-width: 479px) {
   .blog-list-img {
