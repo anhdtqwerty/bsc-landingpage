@@ -76,8 +76,8 @@
                   <span style="color: white">The incubator for future unicorns</span>
                 </h1>
 
-                <div class="hero-btns">
-                  <a href="http://bsclaunch.org/paper.html" class="btn">Whitepaper</a>
+                <div class="hero-btns popup">
+                  <a href="javascript:myFunction()" class="btn" style="position: relative"> <span class="popuptext" id="myPopup">Comming Soons</span> Whitepaper</a>
                   <a href="#socials" class="btn btn2">Contact us</a>
                 </div>
               </div>
@@ -537,6 +537,14 @@
           jQuery(this).parent('li').addClass('hover')
         })
       })
+    </script>
+    <script>
+      // When the user clicks on div, open the popup
+      function myFunction() {
+        console.log(1)
+        var popup = jQuery('#myPopup')
+        popup.toggleClass('show')
+      }
     </script>
   </body>
 </html>
