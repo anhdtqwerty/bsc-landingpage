@@ -68,16 +68,16 @@
               <img src="images/block-1.png" alt="" />
             </div>
           </div>
-          <div class="container">
+          <div class="container" style="z-index: 999">
             <div class="row align-items-center">
               <div class="col-sm-12 col-md-5 hero-left">
-                <h1 style>
-                  <span>BSCLaunch</span><br />
-                  The incubator for future unicorns
+                <h1 style="font-weight: bold !important; color: #fbbd18 !important">
+                  BSCLaunch<br />
+                  <span style="color: white">The incubator for future unicorns</span>
                 </h1>
 
-                <div class="hero-btns">
-                  <a href="http://bsclaunch.org/paper.html" class="btn">Whitepaper</a>
+                <div class="hero-btns popup">
+                  <a href="javascript:myFunction()" class="btn" style="position: relative"> <span class="popuptext" id="myPopup">Coming soon!"</span> Whitepaper</a>
                   <a href="#socials" class="btn btn2">Contact us</a>
                 </div>
               </div>
@@ -238,7 +238,7 @@
         -->
         <!-- Our Mission End -->
 
-        <div class="benefits p-tb white-sec" style="position: relative">
+        <div class="benefits p-tb white-sec" style="position: relative" id="solution">
           <div id="gold-tech-bg"></div>
           <div class="container">
             <div class="sec-title text-center"><h3>Our Solution</h3></div>
@@ -537,6 +537,14 @@
           jQuery(this).parent('li').addClass('hover')
         })
       })
+    </script>
+    <script>
+      // When the user clicks on div, open the popup
+      function myFunction() {
+        console.log(1)
+        var popup = jQuery('#myPopup')
+        popup.toggleClass('show')
+      }
     </script>
   </body>
 </html>
