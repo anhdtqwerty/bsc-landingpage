@@ -1486,6 +1486,8 @@ header.fixed {
 .platinum-layout.hero-main .container,
 .hero-main.platinum-layout .row {
   height: 100%;
+  position: relative;
+  z-index: 2;
 }
 .platinum-layout.hero-main::before {
   opacity: 0;
