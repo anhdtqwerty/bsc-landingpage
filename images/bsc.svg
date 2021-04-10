@@ -909,4 +909,79 @@ viewBox="0 0 7196 4721"
   values="2289; 2239; 2289"
   begin="0"
    />
+  <!---->
+  <animate 
+  xlink:href="#sdot15"
+  attributeName="cx"  
+  dur="8s"
+  repeatCount="indefinite" 
+  keyTimes="0; 0.5; 1"
+  values="3789; 3759; 3789"
+  begin="0"
+   />
+ <animate 
+  xlink:href="#sdot15"
+  attributeName="cy" 
+  dur="9s"
+  repeatCount="indefinite" 
+  keyTimes="0; 0.55; 1"
+  values="2105; 2125; 2105"
+  begin="0"
+   />
+  <animate 
+  xlink:href="#sdot16"
+  attributeName="cx"  
+  dur="13.5s"
+  repeatCount="indefinite" 
+  keyTimes="0; 0.25; 0.5; 0.75; 1"
+  values="3798; 3824; 3812; 3748; 3798"
+  begin="0"
+   />
+ <animate 
+  xlink:href="#sdot16"
+  attributeName="cy" 
+  dur="14s"
+  repeatCount="indefinite" 
+  keyTimes="0; 0.25; 0.5; 0.8; 1"
+  values="2250; 2200; 2240; 2270; 2250"
+  begin="0"
+   />
+
+   <animate 
+  xlink:href="#sdot17"
+  attributeName="cx"  
+  dur="16.5s"
+  repeatCount="indefinite" 
+  keyTimes="0; 0.25; 0.5; 0.75; 1"
+  values="3868; 3878; 3868; 3848; 3868"
+  begin="0"
+   />
+ <animate 
+  xlink:href="#sdot17"
+  attributeName="cy" 
+  dur="12s"
+  repeatCount="indefinite" 
+  keyTimes="0; 0.25; 0.5; 0.8; 1"
+  values="2309; 2344; 2309; 2288; 2309"
+  begin="0"
+   />
+
+<animate 
+  xlink:href="#sdot18"
+  attributeName="cx"  
+  dur="16.5s"
+  repeatCount="indefinite" 
+  keyTimes="0; 0.25; 0.6; 0.7; 1"
+  values="3824; 3844; 3824; 3800; 3824"
+  begin="0"
+   />
+ <animate 
+  xlink:href="#sdot18"
+  attributeName="cy" 
+  dur="12s"
+  repeatCount="indefinite" 
+  keyTimes="0; 0.25; 0.5; 0.75; 1"
+  values="2152; 2140; 2148; 2160; 2152"
+  begin="0"
+   />
 </svg>
