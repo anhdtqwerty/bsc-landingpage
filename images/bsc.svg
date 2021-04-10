@@ -540,12 +540,12 @@ viewBox="0 0 7196 4721"
    </g>
   </g>
   <g id="og2r">
-   <rect id="line26" class="fil104" x="5033" y="1860" width="3.75" height="246.875"/>
-   <rect id="line25" class="fil105" x="4961" y="2047" width="3.75" height="246.875"/>
-   <rect id="line24" class="fil106" x="4895" y="1988" width="3.75" height="246.875"/>
-   <rect id="line23" class="fil106" x="4771" y="2214" width="3.75" height="246.875"/>
-   <rect id="line22" class="fil106" x="4591" y="1959" width="3.75" height="246.875"/>
-   <rect id="line21" class="fil107" x="4495" y="1789" width="3.75" height="246.875"/>
+   <rect id="line26" class="fil104" x="5033" y="1860" width="3.75" height="246.875" opacity="0"/>
+   <rect id="line25" class="fil105" x="4961" y="2047" width="3.75" height="246.875" opacity="0"/>
+   <rect id="line24" class="fil106" x="4895" y="1988" width="3.75" height="246.875" opacity="0"/>
+   <rect id="line23" class="fil106" x="4771" y="2214" width="3.75" height="246.875" opacity="0"/>
+   <rect id="line22" class="fil106" x="4591" y="1959" width="3.75" height="246.875" opacity="0"/>
+   <rect id="line21" class="fil107" x="4495" y="1789" width="3.75" height="246.875" opacity="0"/>
    <circle id="sdot29" class="fil27" cx="5001" cy="2522" r="2"/>
    <circle id="sdot28" class="fil27" cx="4868" cy="2310" r="2"/>
    <circle id="sdot27" class="fil27" cx="4859" cy="2473" r="2"/>
@@ -986,6 +986,116 @@ viewBox="0 0 7196 4721"
    />
    <!---->
 
+<animate 
+  xlink:href="#line21"
+  attributeName="opacity"
+  dur="4" 
+  repeatCount="indefinite" 
+  keyTimes="0; 0.5; 0.75; 1"
+  values="0; 0; 1; 0"
+  begin="0.25s"
+ />
+ <animate 
+  xlink:href="#line21"
+  attributeName="y"
+  dur="4"
+  repeatCount="indefinite" 
+  keyTimes="0; 0.5; 0.85; 1"
+  values="2320; 2320; 1715; 1690"
+  begin="0.25s"
+   />
+ <animate 
+  xlink:href="#line22"
+  attributeName="opacity" 
+  dur="5.2" 
+  repeatCount="indefinite" 
+  keyTimes="0; 0.1; 0.35; 0.45; 1"
+  values="0; 0; 1; 0; 0"
+  begin="0"
+ />
+ <animate 
+  xlink:href="#line22"
+  attributeName="y"  
+  dur="5.2"
+  repeatCount="indefinite" 
+  keyTimes="0; 0.1; 0.45; 1"
+  values="2480; 2480; 1959; 2480"
+  begin="0"
+   />
+ <animate 
+  xlink:href="#line23"
+  attributeName="opacity" 
+  dur="2.8" 
+  repeatCount="indefinite" 
+  keyTimes="0; 0.65; 0.8; 1"
+  values="0; 0; 1; 0"
+  begin="0.22s"
+ />
+ <animate 
+  xlink:href="#line23"
+  attributeName="y"  
+  dur="2.8"
+  repeatCount="indefinite" 
+  keyTimes="0; 0.65; 1"
+  values="2214; 2214; 1704"
+  begin="0.22s"
+   />
+
+  <animate 
+  xlink:href="#line24"
+  attributeName="opacity" 
+  dur="3" 
+  repeatCount="indefinite" 
+  keyTimes="0; 0.65; 0.8; 1"
+  values="0; 0; 1; 0"
+  begin="0.75s"
+ />
+ <animate 
+  xlink:href="#line24"
+  attributeName="y"  
+  dur="3"
+  repeatCount="indefinite" 
+  keyTimes="0; 0.65; 1"
+  values="2520; 2520; 1788"
+  begin="0.75s"
+   />
+<animate 
+  xlink:href="#line25"
+  attributeName="opacity"
+  dur="3.5" 
+  repeatCount="indefinite" 
+  keyTimes="0; 0.5; 0.75; 1"
+  values="0; 0; 1; 0"
+  begin="0.15s"
+ />
+ <animate 
+  xlink:href="#line25"
+  attributeName="y"
+  dur="3.5"
+  repeatCount="indefinite" 
+  keyTimes="0; 0.5; 0.85; 1"
+  values="2590; 2590; 2047; 1847"
+  begin="0.15s"
+   />
+ <animate 
+  xlink:href="#line26"
+  attributeName="opacity"
+  dur="5.1" 
+  repeatCount="indefinite" 
+  keyTimes="0; 0.5; 0.75; 0.9; 1"
+  values="0; 0; 1; 0.9; 0"
+  begin="0s"
+ />
+  <animate 
+  xlink:href="#line26"
+  attributeName="y"
+  dur="5.1"
+  repeatCount="indefinite" 
+  keyTimes="0; 0.5; 1"
+  values="2400; 2400; 1820;"
+  begin="0s"
+   />
+   <!---->
 <animate 
   xlink:href="#line41"
   attributeName="opacity"
