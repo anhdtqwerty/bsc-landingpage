@@ -5,9 +5,9 @@ chart()
 
 function chart() {
   /* Layout 1 Token Chat */
-  var colors = ['#FFDF6B', '#FEC635', '#FFA425', '#FD8719', '#FF6C26', '#CBCBCB', '#EFEFEF', '#FFFFFF']
-  var labels = ['Team', 'Seed', 'Private A', 'Private B', 'Public', 'Advisor', 'Farming pool']
-  var data = [15, 5, 20, 30, 1, 5, 24]
+  var colors = ['#CBCBCB', '#EFEFEF', '#FF6C26', '#FD8719', '#FFA425', '#FEC635', '#FFDF6B']
+  var labels = ['Team', 'Seed', 'Private', 'Liquidity Pool', 'Public', 'Advisor', 'Farming pool']
+  var data = [15, 10, 20, 1, 1.2, 5, 47.8]
   var bgColor = colors
   var dataChart = {
     labels: labels,
