@@ -365,9 +365,9 @@ viewBox="0 0 7196 4721"
    <ellipse class="fil16" transform="matrix(1.54294 -0.168439 -0.227076 0.982142 3058.02 2244.63)" rx="42" ry="106"/>
    <path class="fil14" d="M3058 2245l60 -85c10,19 12,47 5,78 -14,57 -53,107 -89,111 -36,4 -54,-40 -41,-97 11,-44 37,-85 66,-103l-1 96z"/>
    <path class="fil17" d="M3532 1396c10,6 13,17 13,28 0,122 0,244 0,366 1,26 -10,54 -31,70 -150,86 -300,173 -448,260 -8,4 -18,10 -28,6 -10,-5 -13,-16 -14,-27 0,-111 0,-219 0,-328 1,-27 -2,-48 5,-72 8,-16 16,-30 31,-39 149,-86 298,-172 446,-259 8,-4 16,-9 26,-5z"/>
-   <rect class="fil14" transform="matrix(1.32596 -0.781049 -0.0011005 0.343476 3104.22 1925.98)" width="285" height="144"/>
-   <rect class="fil14" transform="matrix(1.00384 -0.591305 -0.00223032 0.343471 3104.27 1833.78)" width="285" height="144"/>
-   <rect class="fil14" transform="matrix(1.00384 -0.591305 -0.00223032 0.343471 3104.27 1742.54)" width="285" height="144"/>
+   <rect id="bar01" class="fil14" transform="matrix(1.32596 -0.781049 -0.0011005 0.343476 3104.22 1925.98)" width="285" height="144"/>
+   <rect id="bar02" class="fil14" transform="matrix(1.00384 -0.591305 -0.00223032 0.343471 3104.27 1833.78)" width="285" height="144"/>
+   <rect id="bar03" class="fil14" transform="matrix(1.00384 -0.591305 -0.00223032 0.343471 3104.27 1742.54)" width="285" height="144"/>
   </g>
   <g id="og5">
    <g>
@@ -985,7 +985,139 @@ viewBox="0 0 7196 4721"
   begin="0"
    />
    <!---->
+   
+<animate 
+  xlink:href="#dot21"
+  attributeName="cx"  
+  dur="10s"
+  repeatCount="indefinite" 
+  keyTimes="0; 0.25; 0.5; 0.75; 1"
+  values="4507; 4480; 4500; 4518; 4507"
+  begin="0"
+   />
+ <animate 
+  xlink:href="#dot21"
+  attributeName="cy" 
+  dur="8.5s"
+  repeatCount="indefinite" 
+  keyTimes="0; 0.25; 0.5; 0.8; 1"
+  values="2087; 2047; 2087; 2097; 2087"
+  begin="0"
+   />
+   <animate 
+  xlink:href="#dot22"
+  attributeName="cx"  
+  dur="11.15s"
+  repeatCount="indefinite" 
+  keyTimes="0; 0.25; 0.6; 0.7; 1"
+  values="4595; 4615; 4595; 4585; 4595"
+  begin="0"
+   />
+ <animate 
+  xlink:href="#dot22"
+  attributeName="cy" 
+  dur="9s"
+  repeatCount="indefinite" 
+  keyTimes="0; 0.25; 0.5; 0.75; 1"
+  values="2330; 2347; 2328; 2300; 2330"
+  begin="0"
+   />
+<animate 
+  xlink:href="#dot23"
+  attributeName="cx"  
+  dur="8.5s"
+  repeatCount="indefinite" 
+  keyTimes="0; 0.55; 1"
+  values="4732; 4780; 4732"
+  begin="0"
+   />
+ <animate 
+  xlink:href="#dot23"
+  attributeName="cy" 
+  dur="7s"
+  repeatCount="indefinite" 
+  keyTimes="0; 0.25; 0.55; 0.75; 1"
+  values="2121; 2100; 2115; 2140; 2121"
+  begin="0"
+   />
+  <animate 
+  xlink:href="#dot24"
+  attributeName="cx"  
+  dur="8.5s"
+  repeatCount="indefinite" 
+  keyTimes="0; 0.5; 1"
+  values="4799; 4769; 4799"
+  begin="0"
+   />
+ <animate 
+  xlink:href="#dot24"
+  attributeName="cy" 
+  dur="6.25s"
+  repeatCount="indefinite" 
+  keyTimes="0; 0.25; 0.5; 0.8; 1"
+  values="1825; 1815; 1835; 1848; 1825"
+  begin="0"
+   />
 
+ <!--circle id="dot26" class="fil27" cx="4899" cy="2368" r="5"/-->
+   <!--circle id="dot25" class="fil27" cx="4899" cy="1958" r="5"/-->
+
+ <animate 
+  xlink:href="#dot25"
+  attributeName="cx"  
+  dur="6.75s"
+  repeatCount="indefinite" 
+  keyTimes="0; 0.25; 0.5; 0.75; 1"
+  values="4899; 4879; 4899; 4928; 4899"
+  begin="0"
+   />
+ <animate 
+  xlink:href="#dot25"
+  attributeName="cy" 
+  dur="9.5s"
+  repeatCount="indefinite" 
+  keyTimes="0; 0.45; 1"
+  values="1958; 1918; 1958"
+  begin="0"
+   />
+  <animate 
+  xlink:href="#dot26"
+  attributeName="cx"  
+  dur="5s"
+  repeatCount="indefinite" 
+  keyTimes="0; 0.5; 1"
+  values="4899; 4879; 4899"
+  begin="0"
+   />
+ <animate 
+  xlink:href="#dot26"
+  attributeName="cy" 
+  dur="7s"
+  repeatCount="indefinite" 
+  keyTimes="0; 0.25; 0.5; 0.8; 1"
+  values="2368; 2348; 2368; 2398; 2368"
+  begin="0"
+   />
+   <!--circle id="dot27" class="fil27" cx="5036" cy="1834" r="5"/-->
+    <animate 
+  xlink:href="#dot27"
+  attributeName="cx"  
+  dur="11.15s"
+  repeatCount="indefinite" 
+  keyTimes="0; 0.25; 0.6; 0.7; 1"
+  values="5036; 5046; 5036; 5016; 5036"
+  begin="0"
+   />
+ <animate 
+  xlink:href="#dot27"
+  attributeName="cy" 
+  dur="9s"
+  repeatCount="indefinite" 
+  keyTimes="0; 0.25; 0.5; 0.75; 1"
+  values="1834; 1802; 1832; 1854; 1834"
+  begin="0"
+   />
+<!---->
 <animate 
   xlink:href="#line21"
   attributeName="opacity"
@@ -1152,8 +1284,6 @@ viewBox="0 0 7196 4721"
   values="2704; 2704; 2554; 2704"
   begin="0.2s"
    />
-
-
 <animate 
   xlink:href="#line44"
   attributeName="opacity"
@@ -1190,7 +1320,6 @@ viewBox="0 0 7196 4721"
   values="2716; 2716; 2516; 2716"
   begin="0"
    />
-
 <animate 
   xlink:href="#line46"
   attributeName="opacity" 
@@ -1209,7 +1338,6 @@ viewBox="0 0 7196 4721"
   values="2842; 2842; 2692; 2842"
   begin="0.75s"
    />
-
 <animate 
   xlink:href="#line47"
   attributeName="opacity" 
@@ -1355,7 +1483,6 @@ viewBox="0 0 7196 4721"
   values="3686; 3646; 3686"
   begin="0.25s"
    />
-
    <animate 
   xlink:href="#dot43"
   attributeName="opacity"
@@ -1383,7 +1510,6 @@ viewBox="0 0 7196 4721"
   values="3690; 3670; 3690"
   begin="0s"
    />
-
   <animate 
   xlink:href="#dot44"
   attributeName="opacity"
@@ -1411,7 +1537,6 @@ viewBox="0 0 7196 4721"
   values="3711; 3651; 3711"
   begin="0.3"
    />
-   
   <animate 
   xlink:href="#dot45"
   attributeName="opacity"
@@ -1439,7 +1564,6 @@ viewBox="0 0 7196 4721"
   values="3716; 3746; 3716"
   begin="0.35s"
    />
-
 <animate 
   xlink:href="#dot46"
   attributeName="opacity"
@@ -1467,7 +1591,6 @@ viewBox="0 0 7196 4721"
   values="3723; 3700; 3723"
   begin="0"
    />
-
   <animate 
   xlink:href="#dot47"
   attributeName="opacity"
@@ -1522,7 +1645,6 @@ viewBox="0 0 7196 4721"
   values="3782; 3746; 3782"
   begin="0"
    />
-
    <animate 
   xlink:href="#dot49"
   attributeName="opacity"
@@ -1686,5 +1808,29 @@ viewBox="0 0 7196 4721"
   keyTimes="0; 0.5; 1"
   values="1; 0; 1"
   begin="0.25s"
+   />
+
+   <!---->
+
+   <rect id="bar01" class="fil14" transform="matrix(1.32596 -0.781049 -0.0011005 0.343476 3104.22 1925.98)" width="285" height="144"/>
+   <rect id="bar02" class="fil14" transform="matrix(1.00384 -0.591305 -0.00223032 0.343471 3104.27 1833.78)" width="285" height="144"/>
+   <!--rect id="bar03" class="fil14" transform="matrix(1.00384 -0.591305 -0.00223032 0.343471 3104.27 1742.54)" width="285" height="144"/-->
+
+<animate 
+  xlink:href="#bar03"
+  attributeName="opacity"  
+  dur="2s"
+  repeatCount="indefinite" 
+  keyTimes="0; 0.5; 1"
+  values="1; 0; 1"
+   />
+
+    <animate 
+  xlink:href="#bar03"
+  attributeName="rotate"
+                          from="0 60 70"
+                          to="360 60 70"
+                          dur="10s"
+                          repeatCount="indefinite"
    />
 </svg>
