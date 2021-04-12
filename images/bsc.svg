@@ -1904,6 +1904,14 @@ viewBox="0 0 7196 4721"
   keyTimes="0; 0.5; 1"
   values="#ECBF48; #ffea6b; #ECBF48"
    />
+<animate 
+  xlink:href="#bar12"
+  attributeName="fill"  
+  dur="2s"
+  repeatCount="indefinite" 
+  keyTimes="0; 0.5; 1"
+  values="#ffea6b; #ECBF48; #ffea6b;"
+   />
   <style id="style2">
   /*
         .running-stroke {
@@ -1914,8 +1922,7 @@ viewBox="0 0 7196 4721"
         .running-stroke {
           stroke-dasharray: 2000;
           stroke-dashoffset: 2000;
-          /*animation: dash 12s linear alternate infinite;*/
-          animation: dash 12s linear reverse infinite;
+          animation: dash 6s linear reverse infinite;
         }
 
         @keyframes dash {
