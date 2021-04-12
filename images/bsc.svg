@@ -367,7 +367,7 @@ viewBox="0 0 7196 4721"
    <path class="fil17" d="M3532 1396c10,6 13,17 13,28 0,122 0,244 0,366 1,26 -10,54 -31,70 -150,86 -300,173 -448,260 -8,4 -18,10 -28,6 -10,-5 -13,-16 -14,-27 0,-111 0,-219 0,-328 1,-27 -2,-48 5,-72 8,-16 16,-30 31,-39 149,-86 298,-172 446,-259 8,-4 16,-9 26,-5z"/>
    <rect id="bar01" class="fil14" transform="matrix(1.32596 -0.781049 -0.0011005 0.343476 3104.22 1925.98)" width="285" height="144"/>
    <rect id="bar02" class="fil14" transform="matrix(1.00384 -0.591305 -0.00223032 0.343471 3104.27 1833.78)" width="285" height="144"/>
-   <rect id="bar03" class="fil14" transform="matrix(1.00384 -0.591305 -0.00223032 0.343471 3104.27 1742.54)" width="285" height="144"/>
+   <rect id="bar03" class="fil14" transform="matrix(1.00384 -0.591305 -0.00223032 0.343471 3104.27 1742.54)" width="285" height="144"></rect>
   </g>
   <g id="og5">
    <g>
@@ -1812,25 +1812,42 @@ viewBox="0 0 7196 4721"
 
    <!---->
 
-   <rect id="bar01" class="fil14" transform="matrix(1.32596 -0.781049 -0.0011005 0.343476 3104.22 1925.98)" width="285" height="144"/>
-   <rect id="bar02" class="fil14" transform="matrix(1.00384 -0.591305 -0.00223032 0.343471 3104.27 1833.78)" width="285" height="144"/>
+   <!--rect id="bar01" class="fil14" transform="matrix(1.32596 -0.781049 -0.0011005 0.343476 3104.22 1925.98)" width="285" height="144"/>
+   <rect id="bar02" class="fil14" transform="matrix(1.00384 -0.591305 -0.00223032 0.343471 3104.27 1833.78)" width="285" height="144"/-->
    <!--rect id="bar03" class="fil14" transform="matrix(1.00384 -0.591305 -0.00223032 0.343471 3104.27 1742.54)" width="285" height="144"/-->
 
 <animate 
   xlink:href="#bar03"
-  attributeName="opacity"  
-  dur="2s"
+  attributeName="width"  
+  dur="6s"
   repeatCount="indefinite" 
-  keyTimes="0; 0.5; 1"
-  values="1; 0; 1"
+  keyTimes="0; 0.45; 0.55; 0.9; 1"
+  values="280; 380; 380; 280; 280"
    />
-
-    <animate 
+<animate 
+  xlink:href="#bar02"
+  attributeName="width"  
+  dur="6.5s"
+  repeatCount="indefinite" 
+  keyTimes="0; 0.45; 0.55; 0.9; 1"
+  values="280; 380; 380; 280; 280"
+  begin="0.5s"
+   />
+<animate 
+  xlink:href="#bar01"
+  attributeName="width"  
+  dur="4s"
+  repeatCount="indefinite" 
+  keyTimes="0; 0.45; 0.55; 0.9; 1"
+  values="280; 220; 220; 280; 280"
+  begin="1s"
+   />
+    <!--animate 
   xlink:href="#bar03"
   attributeName="rotate"
                           from="0 60 70"
                           to="360 60 70"
                           dur="10s"
                           repeatCount="indefinite"
-   />
+   /-->
 </svg>
