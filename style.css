@@ -2695,6 +2695,15 @@ h2.section-heading span {
 /*===================================*
 08. TOKEN SECTION
 *===================================*/
+.token-bsc{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(images/map-bg.png);
+}
+ul.token-bsc-content li{
+  padding: 10px 0px;
+}
 .token-sale {
   clear: both;
   padding: 90px 0;
