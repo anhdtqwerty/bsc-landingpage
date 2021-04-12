@@ -1914,7 +1914,7 @@ viewBox="0 0 7196 4721"
           stroke-dasharray: 2000;
           stroke-dashoffset: 2000;
           /*animation: dash 12s linear alternate infinite;*/
-          animation: dash 12s linear infinite;
+          animation: dash 12s linear reverse infinite;
         }
 
         @keyframes dash {
