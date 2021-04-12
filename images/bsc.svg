@@ -344,7 +344,7 @@ viewBox="0 0 7196 4721"
    <path class="fil1" d="M3570 2413l189 113 -251 148c-85,47 -224,146 -132,252 19,19 79,53 116,77 -10,6 -19,8 -18,21 0,67 2,137 2,202 -135,-80 -375,-217 -404,-242 -132,-110 -45,-250 77,-323l421 -248z"/>
    <polygon class="fil3" points="7196,2369 7196,2120 3241,4721 3598,4721 "/>
   </g>
-  <path class="fil0 str0" d="M3376 3040c-59,-40 -134,-86 -188,-130 -34,-27 -51,-60 -46,-95 10,-85 129,-139 212,-187 508,-298 1002,-559 1519,-866 90,-54 181,-107 185,-228 1,-25 -6,-56 -19,-84 -20,-42 -49,-75 -75,-98"/>
+  <path class="fil0 str0 running-stroke" d="M3376 3040c-59,-40 -134,-86 -188,-130 -34,-27 -51,-60 -46,-95 10,-85 129,-139 212,-187 508,-298 1002,-559 1519,-866 90,-54 181,-107 185,-228 1,-25 -6,-56 -19,-84 -20,-42 -49,-75 -75,-98"/>
   <g id="sog3">
    <path class="fil4" d="M5058 2973c9,-3 27,0 29,17 0,8 -2,15 -7,21 -4,-8 -13,-14 -22,-16 -9,5 -16,13 -25,17 -2,-7 -6,-13 -4,-22 6,-21 19,-19 29,-17z"/>
    <path class="fil5" d="M5058 2995c9,2 18,8 22,16 -2,16 -8,21 -13,22l0 4 2 1c1,8 -1,11 -5,17 -7,-1 -13,-14 -17,-18l1 -1c1,-2 0,-2 1,-4 -5,-1 -8,-4 -10,-10 -7,2 -8,-8 -6,-10 9,-4 16,-12 25,-17z"/>
@@ -363,7 +363,7 @@ viewBox="0 0 7196 4721"
   <g id="sog1">
    <path class="fil2" d="M3237 2249c-1,19 -11,38 -28,47 -101,59 -202,118 -302,177 -7,3 -15,8 -22,2 -7,-6 -6,-13 -6,-22 0,-83 0,-167 0,-250 -1,-16 6,-34 18,-45 4,-3 10,-7 15,-10 101,-59 201,-117 302,-176 10,-6 20,0 23,11 0,5 1,12 1,18 0,88 0,146 -1,248z"/>
    <ellipse class="fil16" transform="matrix(1.54294 -0.168439 -0.227076 0.982142 3058.02 2244.63)" rx="42" ry="106"/>
-   <path class="fil14" d="M3058 2245l60 -85c10,19 12,47 5,78 -14,57 -53,107 -89,111 -36,4 -54,-40 -41,-97 11,-44 37,-85 66,-103l-1 96z"/>
+   <path class="fil14" id="chart01" d="M3058 2245l60 -85c10,19 12,47 5,78 -14,57 -53,107 -89,111 -36,4 -54,-40 -41,-97 11,-44 37,-85 66,-103l-1 96z"/>
    <path class="fil17" d="M3532 1396c10,6 13,17 13,28 0,122 0,244 0,366 1,26 -10,54 -31,70 -150,86 -300,173 -448,260 -8,4 -18,10 -28,6 -10,-5 -13,-16 -14,-27 0,-111 0,-219 0,-328 1,-27 -2,-48 5,-72 8,-16 16,-30 31,-39 149,-86 298,-172 446,-259 8,-4 16,-9 26,-5z"/>
    <rect id="bar01" class="fil14" transform="matrix(1.32596 -0.781049 -0.0011005 0.343476 3104.22 1925.98)" width="285" height="144"/>
    <rect id="bar02" class="fil14" transform="matrix(1.00384 -0.591305 -0.00223032 0.343471 3104.27 1833.78)" width="285" height="144"/>
@@ -1058,10 +1058,6 @@ viewBox="0 0 7196 4721"
   values="1825; 1815; 1835; 1848; 1825"
   begin="0"
    />
-
- <!--circle id="dot26" class="fil27" cx="4899" cy="2368" r="5"/-->
-   <!--circle id="dot25" class="fil27" cx="4899" cy="1958" r="5"/-->
-
  <animate 
   xlink:href="#dot25"
   attributeName="cx"  
@@ -1098,7 +1094,6 @@ viewBox="0 0 7196 4721"
   values="2368; 2348; 2368; 2398; 2368"
   begin="0"
    />
-   <!--circle id="dot27" class="fil27" cx="5036" cy="1834" r="5"/-->
     <animate 
   xlink:href="#dot27"
   attributeName="cx"  
@@ -1115,6 +1110,64 @@ viewBox="0 0 7196 4721"
   repeatCount="indefinite" 
   keyTimes="0; 0.25; 0.5; 0.75; 1"
   values="1834; 1802; 1832; 1854; 1834"
+  begin="0"
+   />
+   <circle id="sdot27" class="fil27" cx="4859" cy="2473" r="2"/>
+   <circle id="sdot25" class="fil27" cx="4647" cy="2128" r="2"/>
+   <circle id="sdot24" class="fil27" cx="4624" cy="2528" r="2"/>
+ <animate 
+  xlink:href="#sdot21"
+  attributeName="opacity"  
+  dur="6.2s"
+  repeatCount="indefinite" 
+  keyTimes="0; 0.45; 0.5; 0.55; 0.6; 1"
+  values="1; 1; 0; 0; 1; 1"
+  begin="0"
+   />
+  <animate 
+  xlink:href="#sdot22"
+  attributeName="opacity"  
+  dur="8s"
+  repeatCount="indefinite" 
+  keyTimes="0; 0.49; 0.50; 0.51; 0.52; 1"
+  values="1; 1; 0; 0; 1; 1"
+  begin="0"
+   />
+<animate 
+  xlink:href="#sdot23"
+  attributeName="opacity"  
+  dur="5.5s"
+  repeatCount="indefinite" 
+  keyTimes="0; 0.48; 0.52; 0.54; 0.56; 1"
+  values="1; 1; 0; 0; 1; 1"
+  begin="0"
+   />
+<animate 
+  xlink:href="#sdot26"
+  attributeName="opacity"  
+  dur="5.5s"
+  repeatCount="indefinite" 
+  keyTimes="0; 0.45; 0.5; 0.55; 0.6; 1"
+  values="1; 1; 0; 0; 1; 1"
+  begin="0"
+   />
+<animate 
+  xlink:href="#sdot28"
+  attributeName="opacity"  
+  dur="10s"
+  repeatCount="indefinite" 
+  keyTimes="0; 0.49; 0.50; 0.51; 0.52; 1"
+  values="1; 1; 0; 0; 1; 1"
+  begin="0"
+   />
+
+<animate 
+  xlink:href="#sdot29"
+  attributeName="opacity"  
+  dur="5.8s"
+  repeatCount="indefinite" 
+  keyTimes="0; 0.45; 0.5; 0.55; 0.6; 1"
+  values="1; 1; 0; 0; 1; 1"
   begin="0"
    />
 <!---->
@@ -1850,4 +1903,26 @@ viewBox="0 0 7196 4721"
   keyTimes="0; 0.5; 1"
   values="#ECBF48; #ffea6b; #ECBF48"
    />
+  <style id="style2">
+  /*
+        .running-stroke {
+            stroke : red;
+            stroke-width : 12
+        }
+  */
+        .running-stroke {
+          stroke-dasharray: 1500;
+          stroke-dashoffset: 1500;
+          animation: dash 5s linear alternate infinite;
+        }
+
+        @keyframes dash {
+          from {
+            stroke-dashoffset: 4000;
+          }
+          to {
+            stroke-dashoffset: 0;
+          }
+        }
+  </style>
 </svg>
