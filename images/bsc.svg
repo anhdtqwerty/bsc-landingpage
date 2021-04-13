@@ -514,13 +514,13 @@ viewBox="0 0 7196 4721"
      <path class="fil88" d="M4772 2447c-121,0 -220,-47 -223,-105 0,6 0,12 0,18 3,61 100,111 224,111 123,0 223,-50 223,-111 0,-6 0,-11 -1,-16 -4,57 -102,103 -223,103z"/>
      <ellipse class="fil89 str3" cx="4772" cy="2340" rx="223" ry="107"/>
     </g>
-    <g>
+    <g id="c01">
      <path class="fil90" d="M4809 1653c88,0 124,106 81,236 -43,131 -150,236 -238,236 -88,0 -124,-105 -81,-236 43,-130 150,-236 238,-236z"/>
      <path class="fil91" d="M4800 1693c75,0 106,90 69,200 -37,111 -127,201 -202,201 -75,0 -106,-90 -69,-201 37,-110 127,-200 202,-200z"/>
      <path class="fil92" d="M4601 2110c-4,-3 -8,-6 -12,-10 -39,-38 -49,-118 -18,-211 43,-130 150,-236 238,-236 8,0 15,1 22,3 7,1 14,4 20,7 -11,-6 -20,-11 -30,-17 -15,-9 -33,-15 -53,-15 -88,0 -197,115 -238,236 -40,120 -14,201 46,230 7,3 16,8 25,13z"/>
      <path class="fil93" d="M4638 1697l39 22c7,-7 14,-14 22,-20l-39 -21c-7,6 -15,12 -22,19zm-111 180l0 1 40 23c0,-1 1,-1 1,-2 1,-3 2,-6 3,-10 2,-7 5,-14 8,-21l-41 -23c-4,10 -7,21 -11,32zm133 -141l-38 -22c-26,28 -49,61 -67,96l40 22c18,-36 40,-69 65,-96z"/>
     </g>
-    <g>
+    <g id="c02">
      <g>
       <path class="fil94" d="M4658 2075c50,0 71,60 46,135 -24,74 -85,134 -136,134 -50,0 -71,-60 -46,-134 25,-75 86,-135 136,-135z"/>
       <path class="fil95" d="M4653 2098c43,0 60,51 39,114 -21,63 -72,114 -115,114 -43,0 -61,-51 -40,-114 21,-63 73,-114 116,-114z"/>
@@ -529,7 +529,7 @@ viewBox="0 0 7196 4721"
      </g>
      <path class="fil27" d="M4626 2140l0 20c12,-6 16,3 17,10 0,5 1,26 -9,33 16,-11 15,39 -2,51l-6 4 0 20 -8 5 -1 -20 -9 6 0 20 -9 6 1 -21 -17 11 0 -10 10 -7 0 -79 -10 7 0 -10 17 -11 0 -18 8 -5 0 19 11 -7 0 -19 7 -5zm-23 76l21 -13c8,-5 10,-14 10,-21 0,-9 0,-17 -9,-11l-22 13 0 32zm0 47l21 -14c9,-5 11,-15 12,-24 0,-7 -1,-18 -11,-12l-22 13 0 37z"/>
     </g>
-    <g>
+    <g id="c03">
      <g>
       <path class="fil98" d="M4950 1982c51,0 72,61 47,136 -25,76 -87,137 -138,137 -51,0 -72,-61 -47,-137 25,-75 87,-136 138,-136z"/>
       <path class="fil99" d="M4944 2005c44,0 62,52 40,116 -21,64 -73,116 -117,116 -43,0 -61,-52 -39,-116 21,-64 73,-116 116,-116z"/>
@@ -1864,13 +1864,7 @@ viewBox="0 0 7196 4721"
   values="1; 0; 1"
   begin="0.25s"
    />
-
    <!---->
-
-   <!--rect id="bar01" class="fil14" transform="matrix(1.32596 -0.781049 -0.0011005 0.343476 3104.22 1925.98)" width="285" height="144"/>
-   <rect id="bar02" class="fil14" transform="matrix(1.00384 -0.591305 -0.00223032 0.343471 3104.27 1833.78)" width="285" height="144"/-->
-   <!--rect id="bar03" class="fil14" transform="matrix(1.00384 -0.591305 -0.00223032 0.343471 3104.27 1742.54)" width="285" height="144"/-->
-
 <animate 
   xlink:href="#bar03"
   attributeName="width"  
@@ -1939,41 +1933,60 @@ viewBox="0 0 7196 4721"
    />
 
   <style id="style2">
-        #chart01 {
-          animation: livechart 6s linear alternate infinite;
-        }
-        @keyframes livechart {
-          /*
-          0% {
-            d: path('M3058 2245l35 -104c29,5 41,46 30,97 -14,57 -53,107 -89,111 -36,4 -54,-40 -41,-97 11,-44 37,-85 66,-103l-1 96z');
-          }
+    #chart01 {
+      animation: livechart 6s linear alternate infinite;
+    }
+    @keyframes livechart {
+      /*
+      0% {
+        d: path('M3058 2245l35 -104c29,5 41,46 30,97 -14,57 -53,107 -89,111 -36,4 -54,-40 -41,-97 11,-44 37,-85 66,-103l-1 96z');
+      }
 
-          100% {
-            d: path('M3058 2245l56 20c-18,46 -51,80 -80,84 -36,4 -54,-40 -41,-97 11,-44 37,-85 66,-103l-1 96z');
-          }
-          */
-        }
-        .running-stroke {
-          stroke-linecap: round;
-          stroke-linejoin: round;
-          stroke-dasharray: 2000;
-          stroke-dashoffset: 2000;
-          animation: dash 6s linear reverse infinite;
-        }
-
-        @keyframes dash {
-          from {
-            stroke-dashoffset: 12000;
-          }
-          to {
-            stroke-dashoffset: 0;
-          }
-        }
-        .stroke-bg {
-          stroke:#ffea6b;
-          stroke-width: 48;
-          opacity: 0.2;
-          filter: blur(12px);
-        }
+      100% {
+        d: path('M3058 2245l56 20c-18,46 -51,80 -80,84 -36,4 -54,-40 -41,-97 11,-44 37,-85 66,-103l-1 96z');
+      }
+      */
+    }
+    /* tokens */
+    #c01 {
+      animation: jump 3.5s ease-in-out alternate infinite;
+    }
+    #c02 {
+      animation: jump 3.1s ease-in-out alternate infinite;
+    }
+    #c03 {
+      animation: jump 2.8s ease-in-out alternate infinite;
+      animation-delay: -1s;
+    }
+    @keyframes jump {
+      0% {
+        transform: translateY(0);
+      }
+      100% {
+        transform: translateY(-30px);
+      }
+    }
+    /* dashing line */
+    .running-stroke {
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      stroke-dasharray: 2000;
+      stroke-dashoffset: 2000;
+      animation: dash 6s linear reverse infinite;
+    }
+    .stroke-bg {
+      stroke:#ffea6b;
+      stroke-width: 48;
+      opacity: 0.2;
+      filter: blur(12px);
+    }
+    @keyframes dash {
+      from {
+        stroke-dashoffset: 12000;
+      }
+      to {
+        stroke-dashoffset: 0;
+      }
+    }
   </style>
 </svg>
