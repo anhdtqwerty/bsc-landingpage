@@ -1,3 +1,4 @@
+window.addEventListener("resize", reportWindowSize);
 am4core.useTheme(am4themes_animated);
 am4core.useTheme(am4themes_dark);
 
@@ -8,34 +9,44 @@ chart.responsive.enabled = true;
 
 chart.data = [
   {
-    label: "Team",
-    value: 15,
+    label: "Seed Sale",
+    value: 8,
     color: am4core.color("#CBCBCB"),
   },
   {
-    label: "Advisor",
-    value: 5,
+    label: "Private Sale",
+    value: 10,
     color: am4core.color("#EFEFEF"),
   },
   {
-    label: "Seed",
-    value: 10,
+    label: "Public Sale",
+    value: 0.4,
     color: am4core.color("#FF6C26"),
   },
   {
-    label: "Private",
-    value: 20,
+    label: "Airdrop",
+    value: 0.6,
     color: am4core.color("#FD8719"),
   },
   {
-    label: "Public",
-    value: 1.2,
+    label: "Marketing & Liquidity Incentive",
+    value: 30,
     color: am4core.color("#FFA425"),
   },
   {
-    label: "Ecosystem Funding",
-    value: 48.8,
+    label: "Foundation Reserver",
+    value: 35,
     color: am4core.color("#FEC635"),
+  },
+  {
+    label: "Team",
+    value: 10,
+    color: am4core.color("#8B635C"),
+  },
+  {
+    label: "Advisor",
+    value: 6,
+    color: am4core.color("#60594D"),
   },
 ];
 
@@ -47,4 +58,7 @@ series.dataFields.value = "value";
 series.dataFields.category = "label";
 series.slices.template.propertyFields.fill = "color";
 series.labels.template.maxWidth = 130;
-series.labels.template.wrap = true;
+function reportWindowSize() {
+  if (window.innerWidth <= 960) series.labels.template.wrap = true;
+  else series.labels.template.wrap = false;
+}
