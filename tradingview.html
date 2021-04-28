@@ -1,0 +1,31 @@
+<div class="tradingview-widget-container">
+  <div id="tradingview_81c84"></div>
+  <div class="tradingview-widget-copyright">
+    <a href="https://www.tradingview.com/symbols/NASDAQ-AAPL/" rel="noopener" target="_blank"><span class="blue-text">AAPL Chart</span></a> by TradingView
+  </div>
+  <script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
+  <script type="text/javascript">
+    var params = window.location.href.split('?')
+    var pair = 'NASDAQ:AAPL'
+    if (params.length) {
+      pair = params[params.length - 1]
+    }
+    new TradingView.widget({
+      width: 920,
+      height: 610,
+      symbol: pair,
+      interval: '60',
+      timezone: 'Etc/UTC',
+      theme: 'dark',
+      style: '1',
+      locale: 'en',
+      toolbar_bg: '#f1f3f6',
+      enable_publishing: false,
+      withdateranges: true,
+      hide_side_toolbar: false,
+      allow_symbol_change: true,
+      studies: ['ATR@tv-basicstudies'],
+      container_id: 'tradingview_81c84',
+    })
+  </script>
+</div>
