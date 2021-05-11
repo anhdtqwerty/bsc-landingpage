@@ -4541,7 +4541,7 @@ ul.allocation-list li:nth-child(7):before {
 *===================================*/
 .blog-section {
   clear: both;
-  background: #f2f2f2;
+  background: #000;
 }
 .blog-section .blogmain {
   margin-top: 30px;
@@ -4558,7 +4558,7 @@ ul.allocation-list li:nth-child(7):before {
   margin: 10px 0 0;
 }
 .blog-list h4 a {
-  color: #1d1d1d;
+  color: #fff;
 }
 .blog-list h4 a:hover {
   color: #fbbd18;
@@ -4572,6 +4572,9 @@ ul.allocation-list li:nth-child(7):before {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+}
+.blog-list-img img {
+  max-width: 100%;
 }
 .blog-list + .blog-list {
   margin-top: 44px;
@@ -4622,7 +4625,7 @@ ul.allocation-list li:nth-child(7):before {
   display: block;
 }
 .blog-slider .blog-list-desc {
-  background: #ffffff;
+  background: #0e0e0e;
   padding: 15px 15px;
 }
 .blog-slider .blog-list-desc h4 {
