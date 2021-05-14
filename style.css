@@ -1977,8 +1977,11 @@ removing
 }
 .owl-carousel .owl-item img {
   display: inline-block;
-  width: auto;
+  /* width: auto; */
   vertical-align: middle;
+  width: 100% !important;
+  height: auto !important;
+  max-height: 450px !important;
 }
 .brand-logo-slider.c-l {
   padding-top: 90px;

@@ -9,7 +9,7 @@ chart.responsive.enabled = true;
 
 chart.data = [
   {
-    label: "Seed Sale",
+    label: "Seed Round",
     value: 8,
     color: am4core.color("#CBCBCB"),
   },
@@ -20,33 +20,43 @@ chart.data = [
   },
   {
     label: "Public Sale",
-    value: 0.4,
+    value: 1,
     color: am4core.color("#FF6C26"),
   },
   {
-    label: "Airdrop",
-    value: 0.6,
+    label: "DEX/TGE",
+    value: 2,
     color: am4core.color("#FD8719"),
   },
   {
-    label: "Marketing & Liquidity Incentive",
-    value: 30,
+    label: "Team",
+    value: 15,
     color: am4core.color("#FFA425"),
   },
   {
-    label: "Foundation Reserver",
-    value: 35,
+    label: "Airdrop",
+    value: 1,
     color: am4core.color("#FEC635"),
   },
   {
-    label: "Team",
-    value: 10,
+    label: "Ecosystem/Incentives",
+    value: 11,
     color: am4core.color("#8B635C"),
   },
   {
-    label: "Advisor",
-    value: 6,
+    label: "Liquidity Pool Reward",
+    value: 15,
     color: am4core.color("#60594D"),
+  },
+  {
+    label: "Reserves",
+    value: 15,
+    color: am4core.color("#9BC4CB"),
+  },
+  {
+    label: "Marketing",
+    value: 22,
+    color: am4core.color("#CFEBDF"),
   },
 ];
 
