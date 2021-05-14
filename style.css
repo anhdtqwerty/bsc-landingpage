@@ -1981,7 +1981,6 @@ removing
   vertical-align: middle;
   width: 100% !important;
   height: auto !important;
-  max-height: 450px !important;
 }
 .brand-logo-slider.c-l {
   padding-top: 90px;
@@ -1992,6 +1991,10 @@ removing
 }
 .c-l .brand-logos .owl-item img {
   opacity: 0.6;
+}
+.owl-stage {
+  display: flex !important;
+  align-items: center;
 }
 .partner-logo {
   clear: both;
@@ -4572,12 +4575,13 @@ ul.allocation-list li:nth-child(7):before {
 .blog-list-img {
   margin-right: 30px;
   min-width: 170px;
+  min-height: 120px;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
 .blog-list-img img {
-  max-width: 100%;
+  max-width: 320px;
 }
 .blog-list + .blog-list {
   margin-top: 44px;
@@ -4619,7 +4623,14 @@ ul.allocation-list li:nth-child(7):before {
 .blog-slider .blog-list-img {
   width: 100%;
   margin-right: 0;
-  display: block;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.blog-slider .blog-list-img a {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .blog-slider .item {
   padding: 0px 15px;
