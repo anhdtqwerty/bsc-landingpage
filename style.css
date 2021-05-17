@@ -2001,6 +2001,52 @@ removing
   display: table;
   width: 100%;
 }
+.partner-logo-row {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  padding: 24px;
+  min-height: 150px;
+}
+.partner-logo-row .item {
+  flex: 1 0 25%;
+  max-width: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media only screen and (max-width: 1024px) and (min-width: 600px) {
+  .partner-logo-row {
+    padding: 0px;
+    min-height: 100px;
+  }
+  .partner-logo-row .item {
+    flex: 1 0 50%;
+    max-width: 50%;
+    margin: 40px 0px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .partner-logo-row {
+    padding: 0px;
+    min-height: 100px;
+  }
+  .partner-logo-row .item {
+    flex: 1 0 100%;
+    max-width: 100%;
+    margin: 20px 0px;
+  }
+  .partner-logo-row .item a {
+    display: flex;
+    justify-content: center;
+  }
+}
+.partner-logo-row .item img {
+  width: 100%;
+  height: auto;
+}
 .partner-logo-grid {
   display: flex;
   flex-wrap: wrap;
