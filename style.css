@@ -2017,6 +2017,18 @@ removing
   justify-content: center;
   align-items: center;
 }
+.special-row-2 .item {
+  flex: 1 0 35% !important;
+  max-width: 35% !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+hr.line-50 {
+  border-top: 2px solid #fbbd18;
+  width: 50px;
+}
+
 @media only screen and (max-width: 1024px) and (min-width: 600px) {
   .partner-logo-row {
     padding: 0px;
