@@ -2011,22 +2011,17 @@ removing
   min-height: 150px;
 }
 .partner-logo-row .item {
-  flex: 1 0 25%;
-  max-width: 25%;
+  flex: 1 0 15%;
+  max-width: 15%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.special-row-2 .item {
-  flex: 1 0 35% !important;
-  max-width: 35% !important;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.mobile-only {
+  display: none !important;
 }
-hr.line-50 {
-  border-top: 2px solid #fbbd18;
-  width: 50px;
+.desktop-margin-right {
+  margin-right: 32px;
 }
 
 @media only screen and (max-width: 1024px) and (min-width: 600px) {
@@ -2035,9 +2030,15 @@ hr.line-50 {
     min-height: 100px;
   }
   .partner-logo-row .item {
-    flex: 1 0 50%;
-    max-width: 50%;
+    flex: 1 0 30%;
+    max-width: 30%;
     margin: 40px 0px;
+  }
+  .mobile-only {
+    display: block !important;
+  }
+  .mobile-margin-top {
+    margin-top: 32px !important;
   }
 }
 @media only screen and (max-width: 600px) {
@@ -2053,6 +2054,9 @@ hr.line-50 {
   .partner-logo-row .item a {
     display: flex;
     justify-content: center;
+  }
+  .mobile-only {
+    display: block !important;
   }
 }
 .partner-logo-row .item img {
