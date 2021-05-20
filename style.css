@@ -2008,20 +2008,19 @@ removing
   justify-content: center;
   align-items: center;
   padding: 24px;
-  min-height: 150px;
 }
 .partner-logo-row .item {
-  flex: 1 0 15%;
-  max-width: 15%;
+  flex: 1 0 25%;
+  max-width: 25%;
   display: flex;
   justify-content: center;
   align-items: center;
+  min-height: 160px;
+  max-height: 200px;
 }
-.mobile-only {
-  display: none !important;
-}
-.desktop-margin-right {
-  margin-right: 32px;
+.px-64 {
+  padding-left: 64px !important;
+  padding-right: 64px !important;
 }
 
 @media only screen and (max-width: 1024px) and (min-width: 600px) {
@@ -2032,13 +2031,6 @@ removing
   .partner-logo-row .item {
     flex: 1 0 30%;
     max-width: 30%;
-    margin: 40px 0px;
-  }
-  .mobile-only {
-    display: block !important;
-  }
-  .mobile-margin-top {
-    margin-top: 32px !important;
   }
 }
 @media only screen and (max-width: 600px) {
@@ -2049,14 +2041,11 @@ removing
   .partner-logo-row .item {
     flex: 1 0 100%;
     max-width: 100%;
-    margin: 20px 0px;
+    max-height: 80px;
   }
   .partner-logo-row .item a {
     display: flex;
     justify-content: center;
-  }
-  .mobile-only {
-    display: block !important;
   }
 }
 .partner-logo-row .item img {
